@@ -285,5 +285,6 @@ input.error {
 .alert {
   font-size: 12px;
   margin-top: 20px;
+  color: #5cc871;
   font-family: ObjectSansRegular;
 }
