@@ -165,8 +165,20 @@ Color Generator
 
 .container h3 {
   font-size: 96px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  color: #1E1E1E;
+  text-align: center;
   font-family: ObjectSansBold;
+}
+
+.container p {
+  font-family: ObjectSansRegular;
+  font-size: 18px;
+  color: #494949;
+  max-width: 600px;
+  text-align: center;
+  line-height: 1.8em;
+  margin-bottom: 60px;
 }
 
 input {
@@ -177,12 +189,12 @@ input {
   font-size: 14px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid #1E1E1E;
   outline: none;
   font-family: ObjectSansRegular;
 }
 .btn {
-  background: #000;
+  background: #1E1E1E;
   font-size: 14px;
   border-color: transparent;
   border-top-right-radius: 8px;
@@ -191,12 +203,21 @@ input {
   color: #fff;
   height: 44px;
   width: 100px;
+  font-family: ObjectSansBold;
   cursor: pointer;
 }
 @media screen and (max-width: 576px) {
   .container h3 {
-    font-size: 40px;
+    font-size: 60px;
+    margin-bottom: 12px;
+    line-height: 1em;
   }
+
+  .container p {
+    font-size: 16px;
+  }
+
+
   input,
   .btn {
     font-size: 0.85rem;
@@ -212,7 +233,7 @@ input.error {
   grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
 }
 .color {
-  padding: 1rem 2rem;
+  padding: 20px;
   cursor: pointer;
   font-size: 1rem;
   text-transform: none;
@@ -221,14 +242,16 @@ input.error {
   margin-bottom: 0;
   color: var(--clr-grey-1);
   font-weight: bold;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   font-size: 20px;
+  font-family: ObjectSansBold;
 }
 .color-value {
   color: var(--clr-grey-1);
   margin-bottom: 0;
   text-transform: uppercase;
   font-size: 14px;
+  font-family: ObjectSansRegular;
 }
 .color-light .color-value {
   color: var(--clr-white);
@@ -238,7 +261,7 @@ input.error {
 }
 
 .alert {
-  text-transform: uppercase;
-  font-size: 0.85rem;
-  margin-top: 0.5rem;
+  font-size: 12px;
+  margin-top: 20px;
+  font-family: ObjectSansRegular;
 }

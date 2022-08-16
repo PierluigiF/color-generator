@@ -23,6 +23,7 @@ function App() {
     <>
       <section className='container'>
         <h3>Color generator</h3>
+        <p>A simple but effective color and gradient generator created for designers and developers. Click on a color to copy it.</p>
         <form onSubmit={handleSubmit}>
           <input
             type='text'
