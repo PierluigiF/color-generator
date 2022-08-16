@@ -168,7 +168,7 @@ Color Generator
 
 .navbar-content p {
   font-family: ObjectSansBold;
-  color: #1E1E1E;
+  color: #1e1e1e;
   font-size: 20px;
   margin: 0;
   padding-top: 2px;
@@ -188,7 +188,7 @@ Color Generator
 .container h3 {
   font-size: 96px;
   margin-bottom: 20px;
-  color: #1E1E1E;
+  color: #1e1e1e;
   text-align: center;
   font-family: ObjectSansBold;
 }
@@ -211,12 +211,12 @@ input {
   font-size: 14px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  border: 1px solid #1E1E1E;
+  border: 1px solid #1e1e1e;
   outline: none;
   font-family: ObjectSansRegular;
 }
 .btn {
-  background: #1E1E1E;
+  background: #1e1e1e;
   font-size: 14px;
   border-color: transparent;
   border-top-right-radius: 8px;
@@ -239,14 +239,13 @@ input {
     font-size: 16px;
   }
 
-
   input,
   .btn {
     font-size: 0.85rem;
   }
 }
 input.error {
-  border: 1px solid #EF4444;
+  border: 1px solid #ef4444;
 }
 .colors {
   min-height: calc(100vh - 100px);
@@ -287,4 +286,31 @@ input.error {
   margin-top: 20px;
   color: #5cc871;
   font-family: ObjectSansRegular;
+}
+
+.footer {
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #f5f5f7;
+}
+
+.footer-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-content p {
+  font-family: ObjectSansRegular;
+  color: #6e6e73;
+  font-size: 14px;
+  margin: 0;
+  padding-top: 2px;
+}
+
+.footer-content a {
+  color: #1d1d1f;
+  font-family: ObjectSansMedium;
 }

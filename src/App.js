@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import SingleColor from "./SingleColor";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 import Values from "values.js";
 
@@ -54,6 +55,7 @@ function App() {
           );
         })}
       </section>
+      <Footer />
     </>
   );
 }
