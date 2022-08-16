@@ -21,6 +21,14 @@ function App() {
     }
   };
 
+  const handleChangeColor = (e) => {
+    let value = e.target.value;
+    if (value.length > 0 && !value.startsWith("#")) {
+      value = "#" + value;
+    }
+    setColor(value);
+  }
+
   return (
     <>
       <Navbar />
@@ -34,7 +42,8 @@ function App() {
           <input
             type="text"
             value={color}
-            onChange={(e) => setColor(e.target.value)}
+            // onChange={(e) => setColor(e.target.value)}
+            onChange={handleChangeColor}
             placeholder="#C4C4C4"
             className={`${error ? "error" : null}`}
           />
