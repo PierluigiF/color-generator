@@ -27,7 +27,7 @@ function App() {
       value = "#" + value;
     }
     setColor(value);
-  }
+  };
 
   return (
     <>
